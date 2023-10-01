@@ -39,7 +39,7 @@ nav .menu ul {
 nav .menu ul li a {
     color: white;
     text-decoration: none;
-    transition: color 0,3s;
+    transition: color 0, 3s;
 }
 
 nav .menu ul li a:hover {
@@ -112,7 +112,7 @@ footer .contact div button {
     border: none;
     border-radius: 0.5rem;
     color: white;
-    background-color: var(--bg-secondary-dark);
+    background-color: #5B0888;
 
 }
 
