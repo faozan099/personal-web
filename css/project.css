@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --bg-body: #0B2447;
+    --bg-secondary: #19376D;
+    --bg-secondary-dark: #3F0071;
+    --color-hover: #A5D7E8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-secondary);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    padding: 1rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0B2447;
+}
+
+header nav div h3{
+    margin: 0;
+}
+
+main .profile div img {
+    border-radius: 100%;
+}
+
+nav .menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav .menu ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0, 3s;
+}
+
+nav .menu ul li a:hover {
+    color: var(--color-hover);
+}
+
+footer {
+    background-color: var(--bg-body);
+    border-radius: 0.5rem 0;
+}
+
+footer .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .contact div h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+footer .contact div button {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #5B0888;
+
+}
+
+footer .footer {
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+footer .footer .media a svg {
+    margin: 0 0.5rem;
+}
+
+footer .footer a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 0 10rem;
+    margin-bottom: 8rem;
+}
+
+main .grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 1rem;
+}
+
+.kresek {
+    background-color: rgb(28, 28, 28);
+    border-radius: 1rem;
+}
+
+.info {
+    padding: 1rem 1rem;
+    text-align: justify;
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 6rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+.keterangan {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border-radius: 1rem;
+    background-color: #3F0071;
+}
