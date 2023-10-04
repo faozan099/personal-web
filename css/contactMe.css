@@ -3,7 +3,7 @@
 :root {
     --bg-body: #0B2447;
     --bg-secondary: #19376D;
-    --bg-secondary-dark: #3F0071;
+    --bg-secondary-dark: #576CBC;
     --color-hover: #A5D7E8;
 }
 
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-body);
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -24,11 +24,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #0B2447;
+    background-color: var(--bg-secondary);
 }
 
 header nav div h3{
     margin: 0;
+}
+h5{
+    font-weight: 300;
 }
 
 nav .menu ul {
@@ -48,7 +51,7 @@ nav .menu ul li a:hover {
 }
 
 footer {
-    background-color: var(--bg-body);
+    background-color: var(--bg-secondary);
     border-radius: 0.5rem 0;
 }
 
@@ -73,7 +76,7 @@ footer .contact div button {
     border: none;
     border-radius: 0.5rem;
     color: white;
-    background-color: #5B0888;
+    background-color: var(--bg-secondary-dark);
 
 }
 footer .footer {
