@@ -138,6 +138,11 @@ main .blog .listBlog{
     margin-top: 0.5rem;
 }
 
+main .blog .listBlog:hover{
+    background-color: var(--bg-secondary-dark);
+
+}
+
 main .blog .flex{
     display: flex;
     justify-content: space-between;
