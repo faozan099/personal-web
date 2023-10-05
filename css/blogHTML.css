@@ -109,17 +109,24 @@ span {
     background-color: black;
     border-radius: 4px;
 }
-img{
+
+img {
     margin-bottom: 2rem;
 }
-h5{
+
+h5 {
     font-weight: 300;
 }
+
 h1 {
     margin-bottom: 0.5rem;
 }
 
-a{
+button:hover {
+    cursor: pointer;
+}
+
+a {
     color: white;
 }
 
@@ -132,12 +139,13 @@ pre {
     background-color: gray;
 }
 
-.code{
+.code {
     padding: 0.5rem;
     background-color: var(--bg-secondary);
     border-radius: 4px;
 }
-.ul{
+
+.ul {
     width: 90%;
     margin: auto;
 }
